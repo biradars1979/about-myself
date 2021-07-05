@@ -1,0 +1,131 @@
+html{
+scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+.line {
+    width: 60px;
+    height: 6px;
+    background-color: black;
+    margin:8px auto;
+}
+#me {
+    position:absolute;
+    height: 250px;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 50%;
+    z-index:9;
+}
+
+body {
+    text-align: center;
+    background-color:darkgray;
+}
+
+.menu{
+list-style: none;
+position:fixed;
+top: 0px;
+cursor: pointer;
+z-index:10;
+background: white;
+width:100%;
+}
+
+.links{
+font-family:monospace;
+float:left;
+color:black;
+padding-right:9px;
+padding-left: 9px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size:20px;
+    
+}
+.links:hover{
+    background-color:bisque;
+}
+p{
+    color:black;
+}
+#eyes{
+    height: 200px;
+    border-color: black;
+    border-radius: 10px;
+}
+#pikachu{
+    height: 200px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#me{
+    background color:aqua;
+    font-family: cursive;
+    font-size:25px;
+}
+#m{
+    border-radius: 40px;
+    height:250px;
+    padding-top: 250px;
+}
+#Elon{
+    height: 300px;
+}
+#hob{
+    font-size:25px;
+    font-family:serif;
+}
+#hobbies{
+text-align:center;
+background-color: beige;
+    
+}
+#inspire{
+    font-size:25px;
+    font-family: cursive;
+  
+}
+#about m{
+   background-color:coral; 
+    font-size:35px;
+    
+}
+
+#top{
+    font-family: fantasy;
+}
+#favorite{
+    font-size:25px;
+    
+}
+#elsa{
+    height:200px;
+}
+#ins{
+    background-color:dimgrey;
+}
+#image{
+    height:200px;
+}
+#bio{
+    padding-top:650px;
+}
+#contact{
+    background-color:crimson;
+    
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color:white;
+}
